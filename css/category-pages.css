@@ -1,0 +1,8 @@
+.box-white-container .box-category h1 {
+  margin-bottom: 150px; }
+
+@media (max-width: 889px) {
+  .box-white-container .row {
+    width: 100vw; } }
+
+/*# sourceMappingURL=category-pages.css.map */

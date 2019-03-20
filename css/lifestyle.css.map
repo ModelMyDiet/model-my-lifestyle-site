@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,eAAgB;EACd,OAAO,EAAE,CAAC;EACV,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAAE,wCAAwC;EAC1D,eAAe,EAAE,YAAY;EAC7B,mBAAmB,EAAE,MAAM;EAC3B,iBAAiB,EAAE,SAAS;EAC5B,oBAAK;IACH,KAAK,EAAE,IAAI",
+"sources": ["../sass/lifestyle.scss"],
+"names": [],
+"file": "lifestyle.css"
+}
