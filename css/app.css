@@ -13,17 +13,16 @@
 .accordion-menu {
   width: 100vw;
   height: auto;
-  min-height: 100%;
-  height: -moz-available;
-  height: -webkit-fill-available;
-  height: fill-available;
+  padding-bottom: 40px;
+  min-height: 100vh;
   display: block;
   position: fixed;
   top: 100px;
   left: 0;
   z-index: 10000;
   background-color: #84C440;
-  overflow: hidden;
+  overflow-y: auto;
+  max-height: calc(100% - 50px);
   display: none; }
 
 .patty {
@@ -318,6 +317,12 @@
 .lifestyle-submenu {
   height: auto !important; }
 
+@media (min-width: 1300px) {
+  .lifestyle-submenu .row, .products-submenu .row {
+    max-width: 1300px;
+    overflow: visible !important;
+    margin: 0 auto;
+    position: relative; } }
 .products-submenu {
   height: auto !important; }
   .products-submenu ul li a, .products-submenu ul li a:visited {
@@ -339,7 +344,8 @@
     margin: 0;
     padding: 0; }
     .submenu ul .title-item a {
-      font-family: 'Montserrat 700'; }
+      font-family: 'Montserrat 700';
+      padding-left: 5%; }
     .submenu ul .sub-item a {
       font-family: 'Montserrat 400';
       padding-left: 10%; }
@@ -352,29 +358,27 @@
   transition: 0.2s; }
 
 .submenu-button {
-  width: 300px;
+  width: 100%;
   display: block;
   line-height: 45px;
   transition: 0.2s;
   margin: 0; }
   .submenu-button .button-text {
-    font-size: 20px;
+    font-size: 18px;
     display: inline-block;
-    width: 224px;
-    padding-left: 25px;
-    height: 45px;
-    border: 3px solid;
-    border-right: none;
+    width: 80%;
+    padding-left: 5%;
+    border: none;
     transition: 0.2s; }
   .submenu-button .caret {
     display: inline-block;
-    width: 45px;
+    width: 15%;
     height: 45px;
     float: right;
     text-align: center;
     font-size: 1.8em;
-    border: 3px solid;
-    border-left: none; }
+    margin-top: 3px;
+    border: none; }
   .submenu-button .hidden-caret {
     visibility: hidden; }
 
@@ -457,29 +461,15 @@
       transition: 0s; }
 
 @media (max-width: 1200px) {
-  .submenu-button {
-    width: 240px; }
-    .submenu-button .button-text {
-      width: 174px;
-      font-size: 18px;
-      padding-left: 15px; }
-    .submenu-button .caret {
-      width: 45px; }
-
-  .submenu-orange-button:hover, .submenu-orange-button:visited:hover,
-  .submenu-green-button:hover, .submenu-green-button:visited:hover,
-  .submenu-red-button:hover, .submenu-red-button:visited:hover {
-    width: 240px; }
-    .submenu-orange-button:hover .button-text, .submenu-orange-button:visited:hover .button-text,
-    .submenu-green-button:hover .button-text, .submenu-green-button:visited:hover .button-text,
-    .submenu-red-button:hover .button-text, .submenu-red-button:visited:hover .button-text {
-      width: 174px;
-      font-size: 18px;
-      padding-left: 15px; }
-    .submenu-orange-button:hover .caret, .submenu-orange-button:visited:hover .caret,
-    .submenu-green-button:hover .caret, .submenu-green-button:visited:hover .caret,
-    .submenu-red-button:hover .caret, .submenu-red-button:visited:hover .caret {
-      width: 45px; } }
+  .submenu-button .button-text {
+    width: 65%;
+    padding-left: 10%;
+    font-size: 14px;
+    float: left; }
+  .submenu-button .caret {
+    float: left;
+    width: 25%;
+    margin-top: 0px; } }
 @media (max-width: 995px) {
   .nav .content-margins .logo a img {
     width: 250px;
@@ -501,31 +491,8 @@
         padding: 35px 0 0 0;
         width: 3px; } }
 @media (max-width: 991px) {
-  .submenu-button {
-    width: 190px; }
-    .submenu-button .button-text {
-      width: 129px;
-      font-size: 12px;
-      padding-left: 10px; }
-    .submenu-button .caret {
-      width: 45px;
-      margin-top: 1px; }
-
-  .submenu-orange-button:hover, .submenu-orange-button:visited:hover,
-  .submenu-green-button:hover, .submenu-green-button:visited:hover,
-  .submenu-red-button:hover, .submenu-red-button:visited:hover {
-    width: 190px; }
-    .submenu-orange-button:hover .button-text, .submenu-orange-button:visited:hover .button-text,
-    .submenu-green-button:hover .button-text, .submenu-green-button:visited:hover .button-text,
-    .submenu-red-button:hover .button-text, .submenu-red-button:visited:hover .button-text {
-      width: 129px;
-      font-size: 12px;
-      padding-left: 10px; }
-    .submenu-orange-button:hover .caret, .submenu-orange-button:visited:hover .caret,
-    .submenu-green-button:hover .caret, .submenu-green-button:visited:hover .caret,
-    .submenu-red-button:hover .caret, .submenu-red-button:visited:hover .caret {
-      width: 45px;
-      margin-top: 1px; } }
+  .submenu-button .button-text {
+    font-size: 12px; } }
 @media (max-width: 875px) {
   .nav .content-margins .desktop-links {
     margin-right: -25px; }
@@ -560,6 +527,12 @@
     margin-left: -20px;
     width: 200px;
     margin-top: 20px; } }
+@media (min-width: 1950px) {
+  .our-company-submenu {
+    width: 800px; } }
+@media (min-width: 2350px) {
+  .our-company-submenu {
+    width: 900px; } }
 footer {
   background-color: #009171;
   padding-top: 20px;

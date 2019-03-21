@@ -373,8 +373,6 @@
           padding: 0;
           color: $lime;
           font-size: 16px;
-          // margin-left: 25px !important;
-          // margin-right: 25px !important;
         }
         &.divider {
           position: relative;
@@ -418,7 +416,6 @@
         z-index: 100;
         &:hover {
           background-color: $white;
-          // transition: 0.2s;
           a, a:visited {
             font-family: 'Montserrat 700';
           }
@@ -470,89 +467,17 @@
 .lifestyle-submenu {
   height: auto !important;
 }
-  // ul {
-  //   li {
-  //     a, a:visited {
-  //       color: $orange;
-  //     }
-      // a.button.orange-button.toggle:hover {
-      //     .button-text {
-      //       color: $white !important;
-      //       border-color: $dark-orange !important;
-      //       background-color: $dark-orange !important;
-      //       transition: 0.2s !important;
-      //   }
-      // }
-      // .active-item {
-      //   border: none;
-      //   line-height: 45px;
-      //   height: 45px;
-      //   width: 100%;
-      //   .button-text {
-      //     color: $yellow;
-      //     background-color: $orange;
-      //     border-color: $orange;
-      //     background: $orange;
-      //     margin-left: 0;
-      //     height: 45px;
-      //     font-size: 20px;
-      //     display: inline-block;
-      //     // width: 224px;
-      //     // padding-left: 25px;
-      //     // height: 45px;
-      //     // border: 3px solid;
-      //     // border-right: none;
-      //     // transition: 0.2s;
-      //   }
-      //   .caret {
-      //     display: inline-block;
-      //     height: 45px;
-      //     // width: 45px;
-      //     // height: 45px;
-      //     float: right;
-      //     // margin-top: -49px;
-      //     text-align: center;
-      //     font-size: 1.8em;
-      //     // border: 3px solid;
-      //     border-left: none;
-      //     background-color: $dark-orange;
-      //     border-color: $dark-orange;
-      //   }
-      //   .button-text {
-      //     font-size: 20px;
-      //     // display: inline-block;
-      //     width: 80%;
-      //     padding-left: 25px;
-      //     height: 45px;
-      //     // border: 3px solid;
-      //     border-right: none;
-      //     transition: 0.2s;
-      //   }
-      //   .caret {
-      //     // display: inline-block;
-      //     width: 20%;
-      //     height: 45px;
-      //     float: right;
-      //     // margin-top: -49px;
-      //     text-align: center;
-      //     font-size: 1.8em;
-      //     // border: 3px solid;
-      //     border-left: none;
-      //   }
-      // }
-  //   }
-  // }
-  // a.button.orange-button.toggle:hover {
-  //     .button-text {
-  //       color: $white !important;
-  //       border-color: $dark-orange !important;
-  //       background-color: $dark-orange !important;
-  //       transition: 0.2s !important;
-  //   }
-  // }
-// }
 
-
+@media (min-width: 1300px) {
+  .lifestyle-submenu, .products-submenu {
+    .row {
+      max-width: 1300px;
+      overflow: visible !important;
+      margin: 0 auto;
+      position: relative;
+    }
+  }
+}
 
 .products-submenu {
   height: auto !important;
@@ -590,49 +515,6 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    li {
-      // height: 45px;
-      // line-height: 45px;
-
-
-      // a {
-      //   width: 100%;
-      //   .button-text {
-      //     font-size: 20px;
-      //     // display: inline-block;
-      //     width: 80%;
-      //     padding-left: 25px;
-      //     height: 45px;
-      //     // border: 3px solid;
-      //     border-right: none;
-      //     transition: 0.2s;
-      //   }
-      //   .caret {
-      //     // display: inline-block;
-      //     width: 20%;
-      //     height: 45px;
-      //     float: right;
-      //     // margin-top: -49px;
-      //     text-align: center;
-      //     font-size: 1.8em;
-      //     // border: 3px solid;
-      //     border-left: none;
-      //   }
-      //   .hidden-caret {
-      //     visibility: hidden;
-      //   }
-      //   .button-text {
-      //     font-size: 20px;
-      //     width: 70%;
-      //   }
-      //   .caret {
-      //     width: 20%;
-      //     margin-right: 15px;
-      //     margin-top: -46px;
-      //   }
-      // }
-
-    }
     .title-item {
       a {
         font-family: 'Montserrat 700';
@@ -645,25 +527,6 @@
         padding-left: 10%;
       }
     }
-    // .button {
-    //   margin: 0;
-    //   width: 100%;
-    //   height: 40px;
-    //   line-height: 40px;
-    //   .button-text, .caret {
-    //     font-family: 'Montserrat 700' !important;
-    //     height: 40px;
-    //   }
-    //   .button-text {
-    //     font-size: 20px;
-    //     width: 70%;
-    //   }
-    //   .caret {
-    //     width: 20%;
-    //     margin-right: 15px;
-    //     margin-top: -46px;
-    //   }
-    // }
   }
 }
 
@@ -683,37 +546,47 @@
 
 
 .submenu-button {
-  width: 300px;
+  // width: 300px;
+  width: 100%;
   // height: 45px;
   display: block;
   line-height: 45px;
   transition: 0.2s;
   margin: 0;
   .button-text {
-    font-size: 20px;
+    font-size: 18px;
     display: inline-block;
-    width: 224px;
-    padding-left: 25px;
-    height: 45px;
-    border: 3px solid;
-    border-right: none;
+    // width: 224px;
+    width: 80%;
+    padding-left: 5%;
+    // padding-left: 25px;
+    // border: 3px solid;
+    // border-right: none;
+    border: none;
     transition: 0.2s;
   }
   .caret {
     display: inline-block;
-    width: 45px;
+    // width: 45px;
+    width: 15%;
     height: 45px;
     float: right;
     // margin-top: -49px;
     text-align: center;
     font-size: 1.8em;
-    border: 3px solid;
-    border-left: none;
+    margin-top: 3px;
+    // border: 3px solid;
+    // border-left: none;
+    border: none;
   }
   .hidden-caret {
     visibility: hidden;
     // opacity: 0;
   }
+}
+
+.sub-item .submenu-button {
+  // width: 95%;
 }
 
 .submenu-orange-button, .submenu-orange-button:visited {
@@ -819,31 +692,37 @@
 
 @media (max-width: 1200px) {
   .submenu-button {
-    width: 240px;
+    // width: 240px;
     .button-text {
-      width: 174px;
-      font-size: 18px;
-      padding-left: 15px;
+      // width: 174px;
+      width: 65%;
+      padding-left: 10%;
+      font-size: 14px;
+      float: left;
+      // padding-left: 15px;
     }
     .caret {
-      width: 45px;
+      // width: 45px;
+      float: left;
+      width: 25%;
+      margin-top: 0px;
     }
   }
-  .submenu-orange-button, .submenu-orange-button:visited,
-  .submenu-green-button, .submenu-green-button:visited,
-  .submenu-red-button, .submenu-red-button:visited {
-    &:hover {
-      width: 240px;
-      .button-text {
-        width: 174px;
-        font-size: 18px;
-        padding-left: 15px;
-      }
-      .caret {
-        width: 45px;
-      }
-    }
-  }
+  // .submenu-orange-button, .submenu-orange-button:visited,
+  // .submenu-green-button, .submenu-green-button:visited,
+  // .submenu-red-button, .submenu-red-button:visited {
+  //   &:hover {
+  //     width: 240px;
+  //     .button-text {
+  //       width: 174px;
+  //       font-size: 18px;
+  //       padding-left: 15px;
+  //     }
+  //     .caret {
+  //       width: 45px;
+  //     }
+  //   }
+  // }
 }
 
 @media (max-width: 995px) {
@@ -886,33 +765,33 @@
 
 @media (max-width: 991px) {
   .submenu-button {
-    width: 190px;
+    // width: 190px;
     .button-text {
-      width: 129px;
+    //   width: 129px;
       font-size: 12px;
-      padding-left: 10px;
-    }
-    .caret {
-      width: 45px;
-      margin-top: 1px;
-    }
-  }
-  .submenu-orange-button, .submenu-orange-button:visited,
-  .submenu-green-button, .submenu-green-button:visited,
-  .submenu-red-button, .submenu-red-button:visited {
-    &:hover {
-      width: 190px;
-      .button-text {
-        width: 129px;
-        font-size: 12px;
-        padding-left: 10px;
-      }
-      .caret {
-        width: 45px;
-        margin-top: 1px;
-      }
+    //   padding-left: 10px;
+    // }
+    // .caret {
+    //   width: 45px;
+    //   margin-top: 1px;
     }
   }
+  // .submenu-orange-button, .submenu-orange-button:visited,
+  // .submenu-green-button, .submenu-green-button:visited,
+  // .submenu-red-button, .submenu-red-button:visited {
+  //   &:hover {
+  //     width: 190px;
+  //     .button-text {
+  //       width: 129px;
+  //       font-size: 12px;
+  //       padding-left: 10px;
+  //     }
+  //     .caret {
+  //       width: 45px;
+  //       margin-top: 1px;
+  //     }
+  //   }
+  // }
 }
 
 @media (max-width: 875px) {
