@@ -17,3 +17,11 @@
 //     }
 //   }
 // }
+
+
+@media (min-width: 2400px) {
+  .lifestyle-hero {
+    background-image: url('/img/backgrounds/lifestyle-bg-large.png');
+    background-size: 3100px 600px;
+  }
+}

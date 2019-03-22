@@ -579,3 +579,11 @@
     }
   }
 }
+
+
+@media (min-width: 2400px) {
+  .success-stories-hero {
+    background-image: url('/img/backgrounds/success-bg-large.png');
+    background-size: 3000px 600px;
+  }
+}

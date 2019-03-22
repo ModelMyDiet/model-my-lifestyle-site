@@ -859,3 +859,12 @@
   opacity: 0 !important;
   visibility: hidden !important;
 }
+
+
+
+@media (min-width: 2400px) {
+  .box-bg-container {
+    background-image: url('/img/backgrounds/home-bg-large.png');
+    background-size: 3100px 1200px;
+  }
+}

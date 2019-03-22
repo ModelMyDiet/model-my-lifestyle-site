@@ -743,3 +743,12 @@ h4.health-tips {
     }
   }
 }
+
+
+
+@media (min-width: 2400px) {
+  .post-hero {
+    background-image: url('/img/backgrounds/post-bg-large.png');
+    background-size: 3100px 600px;
+  }
+}

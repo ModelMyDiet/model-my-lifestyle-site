@@ -1515,6 +1515,10 @@ footer {
   opacity: 0 !important;
   visibility: hidden !important; }
 
+@media (min-width: 2400px) {
+  .box-bg-container {
+    background-image: url("/img/backgrounds/home-bg-large.png");
+    background-size: 3100px 1200px; } }
 .lifestyle-hero {
   padding: 0;
   width: 100vw;
@@ -1525,6 +1529,10 @@ footer {
   .lifestyle-hero .box {
     width: 100%; }
 
+@media (min-width: 2400px) {
+  .lifestyle-hero {
+    background-image: url("/img/backgrounds/lifestyle-bg-large.png");
+    background-size: 3100px 600px; } }
 .box-white-container .box-category h1 {
   margin-bottom: 150px; }
 
@@ -1960,6 +1968,10 @@ h4.health-tips {
     .comment-section form .button {
       display: block;
       margin: 10px auto !important; } }
+@media (min-width: 2400px) {
+  .post-hero {
+    background-image: url("/img/backgrounds/post-bg-large.png");
+    background-size: 3100px 600px; } }
 .products-hero {
   padding: 0;
   width: 100vw;
@@ -2292,6 +2304,10 @@ h4.health-tips {
     margin: 0; }
   .our-company-contact-section .content-margins {
     margin: 0 15px; } }
+@media (min-width: 2400px) {
+  .our-company-hero {
+    background-image: url("/img/backgrounds/about-bg-2-large.png");
+    background-size: 3100px 600px; } }
 .success-stories-hero {
   padding: 0;
   width: 100vw;
@@ -2673,6 +2689,10 @@ h4.health-tips {
   .biggest-success p, .individual-success-story-hero p, .individual-success-story-inner p {
     font-size: 16px;
     margin-top: -40px; } }
+@media (min-width: 2400px) {
+  .success-stories-hero {
+    background-image: url("/img/backgrounds/success-bg-large.png");
+    background-size: 3000px 600px; } }
 .form-container {
   position: relative;
   padding: 50px; }
