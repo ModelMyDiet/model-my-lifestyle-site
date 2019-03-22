@@ -1511,6 +1511,10 @@ footer {
     padding: 25px 0; }
   .new-box-container .new-box h2 {
     font-size: 18px; } }
+.fig-number.invisible {
+  opacity: 0 !important;
+  visibility: hidden !important; }
+
 .lifestyle-hero {
   padding: 0;
   width: 100vw;
