@@ -1,61 +1,497 @@
-/*
-Error: Undefined variable: "$white".
-        on line 2 of /Users/laurenmastroni/Code/Sites/modelmydiet.github.io/sass/home.scss
+.stats-container {
+  background-color: #fff;
+  padding: 20px 0 40px 0; }
+  .stats-container h3 {
+    font-size: 65px; }
+  .stats-container h4 {
+    margin-top: -80px;
+    font-size: 40px; }
+  .stats-container h5 {
+    font-size: 25px;
+    margin-top: -70px; }
 
-1: .stats-container {
-2:   background-color: $white;
-3:   padding: 20px 0 40px 0;
-4:   h3 {
-5:     font-size: 65px;
-6:     // margin-top: -100px;
-7:   }
+.box-bg-container {
+  min-height: 1200px;
+  background-image: url("../img/backgrounds/home-bg.png");
+  background-size: 2400px 1200px;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .box-bg-container .col-xs-6 {
+    padding: 0;
+    margin: 0; }
+  .box-bg-container .box {
+    height: 600px;
+    width: 600px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat; }
+    .box-bg-container .box h2 {
+      margin: 0 !important;
+      padding: 0 !important;
+      font-size: 60px;
+      line-height: 1;
+      padding-left: 50px !important;
+      padding-top: 50px !important; }
+  .box-bg-container .box-1 {
+    background-color: #F68C1E;
+    background-image: url("../img/backgrounds/box-1.png"); }
+  .box-bg-container .box-2 {
+    background-color: #E21E26;
+    background-image: url("../img/backgrounds/box-2.png"); }
+  .box-bg-container .box-3 {
+    background-color: #84C440;
+    background-image: url("../img/backgrounds/box-3.png"); }
+  .box-bg-container .box-4 {
+    background-color: #009171;
+    background-image: url("../img/backgrounds/box-4.png"); }
 
-Backtrace:
-/Users/laurenmastroni/Code/Sites/modelmydiet.github.io/sass/home.scss:2
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `map'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:391:in `run'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `load'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 2 of /Users/laurenmastroni/Code/Sites/modelmydiet.github.io/sass/home.scss\A \A 1: .stats-container {\A 2:   background-color: $white;\A 3:   padding: 20px 0 40px 0;\A 4:   h3 {\A 5:     font-size: 65px;\A 6:     // margin-top: -100px;\A 7:   }"; }
+.box-white-container {
+  padding: 100px 0; }
+  .box-white-container .col-xs-12, .box-white-container .col-md-6 {
+    margin: 0;
+    padding: 0; }
+  .box-white-container .box {
+    height: 600px;
+    width: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box-white-container .box-5 {
+    background-color: #F68C1E; }
+  .box-white-container .box-5 h1, .box-white-container .box-category h1 {
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    line-height: 1;
+    padding-top: 50px;
+    padding-left: 50px; }
+  .box-white-container .box-5 .button, .box-white-container .box-category .button {
+    margin-top: -15px;
+    margin-left: 50px; }
+  .box-white-container .sub-box {
+    width: 50%;
+    height: 50%;
+    position: relative; }
+    .box-white-container .sub-box h5 {
+      padding: 0;
+      margin: 0;
+      line-height: 1;
+      padding: 25px 25px 0 25px;
+      font-size: 30px; }
+    .box-white-container .sub-box .button {
+      position: absolute;
+      bottom: -25px; }
+  .box-white-container .sub-box.food h5 {
+    color: #4DBFA8; }
+  .box-white-container .sub-box.workout h5 {
+    color: #F38082; }
+  .box-white-container .sub-box.health-tips h5 {
+    color: #FFD400; }
+  .box-white-container .sub-box.inspiration h5 {
+    color: #d4de24; }
+
+.success-stories-container h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 65px;
+  line-height: 1;
+  margin-bottom: 50px; }
+.success-stories-container .red-button {
+  float: right;
+  margin-top: 0px; }
+
+@media (max-width: 1000px) {
+  .stats-container {
+    padding: 40px 0; }
+    .stats-container h3 {
+      font-size: 50px; }
+    .stats-container h4 {
+      margin-top: -80px;
+      font-size: 30px; }
+    .stats-container h5 {
+      font-size: 18px;
+      margin-top: -70px; } }
+@media (max-width: 1200px) {
+  .box-bg-container {
+    background: none;
+    min-height: 0; }
+    .box-bg-container .box {
+      height: 50vw;
+      width: 50vw; }
+      .box-bg-container .box h2 {
+        font-size: 45px; }
+
+  .box-white-container .box {
+    height: 50vw;
+    width: 50vw; }
+    .box-white-container .box .sub-box .button {
+      position: absolute;
+      bottom: -21px;
+      width: 100%; }
+      .box-white-container .box .sub-box .button .button-text {
+        width: 70%;
+        padding-left: 10%;
+        border: none; }
+      .box-white-container .box .sub-box .button .caret {
+        width: 20%;
+        border: none;
+        margin-top: 2px; } }
+@media (min-width: 951px) and (max-width: 1100px) {
+  .box-white-container .box-category h1 {
+    margin-bottom: 120px !important; }
+  .box-white-container .box-category .button .button-text {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px; }
+  .box-white-container .box-category .button .caret {
+    height: 40px;
+    margin-top: 3px; }
+  .box-white-container .box h1 {
+    font-size: 45px; }
+  .box-white-container .box .orange-button .button-text {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px; }
+  .box-white-container .box .orange-button .caret {
+    height: 40px;
+    margin-top: 3px; }
+  .box-white-container .box .sub-box h5 {
+    font-size: 25px; } }
+@media (min-width: 876px) and (max-width: 950px) {
+  .box-white-container .box-category h1 {
+    margin-bottom: 110px !important; }
+  .box-white-container .box-category .button {
+    margin-left: 25px; }
+    .box-white-container .box-category .button .button-text {
+      font-size: 14px;
+      height: 40px;
+      line-height: 40px; }
+    .box-white-container .box-category .button .caret {
+      height: 40px;
+      margin-top: 3px; }
+  .box-white-container .box h1 {
+    font-size: 40px;
+    padding-top: 25px;
+    padding-left: 25px; }
+  .box-white-container .box .orange-button {
+    margin-left: 25px; }
+    .box-white-container .box .orange-button .button-text {
+      font-size: 14px;
+      height: 40px;
+      line-height: 40px; }
+    .box-white-container .box .orange-button .caret {
+      height: 40px;
+      margin-top: 3px; }
+  .box-white-container .box .sub-box h5 {
+    font-size: 22px;
+    line-height: 1.2; } }
+@media (max-width: 875px) {
+  .box-bg-container .box h2 {
+    font-size: 35px; }
+
+  .success-stories-container h1 {
+    font-size: 50px;
+    margin-left: 25px; } }
+@media (min-width: 768px) and (max-width: 875px) {
+  .box-bg-container .box h2 {
+    font-size: 40px; }
+
+  .box-white-container .box-category h1 {
+    margin-bottom: 100px !important; }
+  .box-white-container .box-category .button {
+    margin-left: 25px;
+    margin-top: -20px; }
+    .box-white-container .box-category .button .button-text {
+      font-size: 14px;
+      height: 30px;
+      line-height: 30px; }
+    .box-white-container .box-category .button .caret {
+      height: 30px;
+      line-height: 30px;
+      margin-top: 8px; }
+  .box-white-container .box h1 {
+    font-size: 35px;
+    padding-top: 25px;
+    padding-left: 25px; }
+  .box-white-container .box .orange-button {
+    margin-left: 25px;
+    margin-top: -20px; }
+    .box-white-container .box .orange-button .button-text {
+      font-size: 14px;
+      height: 30px;
+      line-height: 30px; }
+    .box-white-container .box .orange-button .caret {
+      height: 30px;
+      line-height: 30px;
+      margin-top: 8px; }
+  .box-white-container .box .sub-box h5 {
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 10px 10px 0 10px; } }
+@media (min-width: 768px) {
+  .stats-mobile {
+    display: none; } }
+@media (max-width: 767px) {
+  .stats-desktop {
+    display: none; }
+
+  .box-bg-container .box h2 {
+    font-size: 35px;
+    padding-left: 25px !important;
+    padding-top: 25px !important; }
+
+  .box-white-container .box-5, .box-white-container .box-category {
+    height: 100vw;
+    width: 100vw; }
+  .box-white-container .blog-box {
+    height: 50vw;
+    width: 100vw; }
+    .box-white-container .blog-box .sub-box {
+      height: 100%; }
+  .box-white-container .box-category h1 {
+    margin-bottom: 30px !important; }
+  .box-white-container .box .sub-box h5 {
+    font-size: 40px; }
+  .box-white-container .box .sub-box .button {
+    position: absolute;
+    bottom: -21px;
+    width: 100%; }
+    .box-white-container .box .sub-box .button .button-text {
+      width: 70%;
+      padding-left: 10%;
+      border: none; }
+    .box-white-container .box .sub-box .button .caret {
+      width: 20%;
+      border: none;
+      margin-top: 2px; } }
+@media (max-width: 660px) {
+  .box-white-container .box h1 {
+    font-size: 40px; }
+  .box-white-container .box .sub-box h5 {
+    font-size: 30px; } }
+@media (max-width: 630px) {
+  .box-bg-container .box h2 {
+    font-size: 30px; } }
+@media (max-width: 540px) {
+  .box-bg-container .box h2 {
+    font-size: 25px; } }
+@media (max-width: 520px) {
+  .box-white-container .box-category .button .button-text {
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px; }
+  .box-white-container .box-category .button .caret {
+    height: 40px;
+    line-height: 40px;
+    margin-top: 3px; }
+  .box-white-container .box h1 {
+    font-size: 30px; }
+  .box-white-container .box .orange-button .button-text {
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px; }
+  .box-white-container .box .orange-button .caret {
+    height: 40px;
+    line-height: 40px;
+    margin-top: 3px; }
+  .box-white-container .box .sub-box h5 {
+    font-size: 25px; } }
+@media (max-width: 475px) {
+  .box-bg-container .box h2 {
+    font-size: 20px; } }
+@media (max-width: 455px) {
+  .box-white-container .box-category .button {
+    margin-left: 25px; }
+    .box-white-container .box-category .button .button-text {
+      font-size: 16px;
+      height: 40px;
+      line-height: 40px; }
+    .box-white-container .box-category .button .caret {
+      height: 40px;
+      line-height: 40px; }
+  .box-white-container .box h1 {
+    font-size: 25px;
+    padding-left: 25px;
+    padding-top: 25px; }
+  .box-white-container .box .orange-button {
+    margin-left: 25px; }
+    .box-white-container .box .orange-button .button-text {
+      font-size: 16px;
+      height: 40px;
+      line-height: 40px; }
+    .box-white-container .box .orange-button .caret {
+      height: 40px;
+      line-height: 40px; }
+  .box-white-container .box .sub-box h5 {
+    font-size: 20px;
+    padding: 15px 15px 0 15px; } }
+@media (max-width: 400px) {
+  .box-bg-container .box h2 {
+    font-size: 18px;
+    padding-left: 15px !important;
+    padding-top: 15px !important; }
+
+  .box-white-container .box-category .button {
+    margin-left: 25px;
+    margin-top: -20px; }
+    .box-white-container .box-category .button .button-text {
+      font-size: 14px;
+      height: 30px;
+      line-height: 30px; }
+    .box-white-container .box-category .button .caret {
+      height: 30px;
+      line-height: 30px;
+      margin-top: 8px; }
+  .box-white-container .box h1 {
+    font-size: 25px;
+    padding-left: 25px;
+    padding-top: 25px; }
+  .box-white-container .box .orange-button {
+    margin-left: 25px;
+    margin-top: -20px; }
+    .box-white-container .box .orange-button .button-text {
+      font-size: 14px;
+      height: 30px;
+      line-height: 30px; }
+    .box-white-container .box .orange-button .caret {
+      height: 30px;
+      line-height: 30px;
+      margin-top: 8px; }
+  .box-white-container .box .sub-box h5 {
+    font-size: 20px; }
+  .box-white-container .box .sub-box .button .button-text {
+    font-size: 14px; } }
+@media (max-width: 360px) {
+  .box-white-container .box-category .button {
+    margin-left: 15px;
+    margin-top: -20px; }
+    .box-white-container .box-category .button .button-text {
+      font-size: 12px;
+      height: 25px;
+      line-height: 25px; }
+    .box-white-container .box-category .button .caret {
+      height: 25px;
+      font-size: 20px;
+      line-height: 25px;
+      margin-top: 11px; }
+  .box-white-container .box h1 {
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 15px; }
+  .box-white-container .box .orange-button {
+    margin-left: 15px;
+    margin-top: -20px; }
+    .box-white-container .box .orange-button .button-text {
+      font-size: 12px;
+      height: 25px;
+      line-height: 25px; }
+    .box-white-container .box .orange-button .caret {
+      height: 25px;
+      font-size: 20px;
+      line-height: 25px;
+      margin-top: 11px; }
+  .box-white-container .box .sub-box h5 {
+    font-size: 16px; }
+  .box-white-container .box .sub-box .button .button-text {
+    font-size: 14px; } }
+.new-box-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 80px; }
+  .new-box-container p {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+  .new-box-container .col-xs-6, .new-box-container .col-sm-3 {
+    padding: 0;
+    margin: 0; }
+  .new-box-container .new-box {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .new-box-container .new-box h2 {
+      font-size: 30px;
+      line-height: 1;
+      padding: 0;
+      margin: 0;
+      padding-top: 15px;
+      padding-left: 15px; }
+  .new-box-container .new-box-1 {
+    background-image: url("../img/pattern-block-1.png"); }
+  .new-box-container .new-box-2 {
+    background-color: #F68C1E;
+    background-image: url("../img/backgrounds/box-1.png"); }
+  .new-box-container .new-box-3 {
+    background-color: #E21E26;
+    background-image: url("../img/backgrounds/box-2.png"); }
+  .new-box-container .new-box-4 {
+    background-image: url("../img/pattern-block-2.png"); }
+  .new-box-container .new-box-5 {
+    background-image: url("../img/pattern-block-1.png"); }
+  .new-box-container .new-box-6 {
+    background-color: #84C440;
+    background-image: url("../img/backgrounds/box-3.png"); }
+  .new-box-container .new-box-7 {
+    background-color: #009171;
+    background-image: url("../img/backgrounds/box-4.png"); }
+  .new-box-container .new-box-8 {
+    background-image: url("../img/pattern-block-2.png"); }
+
+@media (max-width: 1200px) {
+  .new-box-container p {
+    font-size: 14px;
+    line-height: 1.5; }
+  .new-box-container .new-box {
+    width: 25vw;
+    height: 25vw; } }
+@media (max-width: 1000px) {
+  .new-box-container p {
+    font-size: 14px;
+    line-height: 1.5; }
+  .new-box-container .new-box h2 {
+    font-size: 25px; } }
+@media (max-width: 890px) {
+  .new-box-container p {
+    font-size: 12px;
+    line-height: 1.5; }
+  .new-box-container .new-box h2 {
+    font-size: 20px; } }
+@media (min-width: 768px) {
+  .new-box-container-mobile {
+    display: none; } }
+@media (max-width: 767px) {
+  .new-box-container-desktop {
+    display: none; }
+
+  .new-box-container p {
+    font-size: 16px;
+    line-height: 2;
+    padding: 60px 0; }
+  .new-box-container .new-box {
+    width: 50vw;
+    height: 50vw; }
+    .new-box-container .new-box h2 {
+      font-size: 30px; } }
+@media (max-width: 510px) {
+  .new-box-container p {
+    font-size: 16px;
+    line-height: 2;
+    padding: 60px 0; }
+  .new-box-container .new-box h2 {
+    font-size: 25px; } }
+@media (max-width: 430px) {
+  .new-box-container p {
+    font-size: 14px;
+    line-height: 1.8;
+    padding: 25px 0; }
+  .new-box-container .new-box h2 {
+    font-size: 18px; } }
+
+/*# sourceMappingURL=home.css.map */

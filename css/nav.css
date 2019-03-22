@@ -318,7 +318,11 @@
 
 .our-company-submenu {
   top: 100px;
-  width: 600px; }
+  width: 100vw; }
+  .our-company-submenu .row {
+    width: 600px;
+    margin: 0 auto;
+    overflow: visible !important; }
   .our-company-submenu ul li a, .our-company-submenu ul li a:visited {
     color: #E21E26; }
 

@@ -495,7 +495,12 @@
   // position: absolute;
   top: 100px;
   // right: 0!important;
-  width: 600px;
+  width: 100vw;
+  .row {
+    width: 600px;
+    margin: 0 auto;
+    overflow: visible !important;
+  }
   ul {
     li {
       a, a:visited {
