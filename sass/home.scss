@@ -1,5 +1,21 @@
 @import 'variables';
 
+.home-hero {
+  .box {
+    p {
+      margin-top: -80px !important;
+    }
+  }
+  .button {
+    margin-left: 50px;
+    margin-top: 80px;
+  }
+  .home-hero-box {
+    background-image: url('../img/blog-img/boost-2.jpg');
+  }
+}
+
+
 .stats-container {
   background-color: $white;
   padding: 20px 0 40px 0;
@@ -855,10 +871,10 @@
   }
 }
 
-.fig-number.invisible {
-  opacity: 0 !important;
-  visibility: hidden !important;
-}
+// .fig-number.invisible {
+//   opacity: 0 !important;
+//   visibility: hidden !important;
+// }
 
 
 
@@ -866,5 +882,52 @@
   .box-bg-container {
     background-image: url('/img/backgrounds/home-bg-large.png');
     background-size: 3100px 1200px;
+  }
+}
+
+
+
+@media (max-width: 1200px) {
+  .home-hero {
+    .box {
+      p {
+        margin-top: -40px !important;
+      }
+      .button {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 940px) {
+  .home-hero {
+    .box {
+      h2 {
+        font-size: 45px !important;
+      }
+      p {
+        display: none !important;
+      }
+      .button {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 475px) {
+  .home-hero {
+    .box {
+      height: auto !important;
+      padding-bottom: 50px !important;
+      p {
+        margin-top: 10px !important;
+      }
+      .button {
+        margin-left: 10px;
+      }
+    }
   }
 }

@@ -46,6 +46,8 @@ footer {
           margin-left: -4px;
           margin-top: -5px;
           float: right;
+          -webkit-appearance: none;
+          -moz-appearance: none;
         }
       }
       .app-link-img {
@@ -175,6 +177,10 @@ footer {
       p {
         // text-align: center !important;
         margin-top: -50px !important;
+        text-align: center;
+      }
+      ul {
+        text-align: center;
       }
     }
   }

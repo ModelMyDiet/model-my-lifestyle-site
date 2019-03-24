@@ -37,7 +37,9 @@ footer {
           border: 1px solid #007257;
           margin-left: -4px;
           margin-top: -5px;
-          float: right; }
+          float: right;
+          -webkit-appearance: none;
+          -moz-appearance: none; }
       footer .content-margins .row .app-link-img {
         width: 100%;
         margin-bottom: 20px;
@@ -127,7 +129,10 @@ footer {
   footer .sub-footer {
     height: auto; }
     footer .sub-footer p {
-      margin-top: -50px !important; } }
+      margin-top: -50px !important;
+      text-align: center; }
+    footer .sub-footer ul {
+      text-align: center; } }
 @media (max-width: 400px) {
   footer .content-margins .row .get-app-column {
     margin-top: -120px; }

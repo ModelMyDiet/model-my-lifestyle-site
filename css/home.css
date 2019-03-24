@@ -1,3 +1,11 @@
+.home-hero .box p {
+  margin-top: -80px !important; }
+.home-hero .button {
+  margin-left: 50px;
+  margin-top: 80px; }
+.home-hero .home-hero-box {
+  background-image: url("../img/blog-img/boost-2.jpg"); }
+
 .stats-container {
   background-color: #fff;
   padding: 20px 0 40px 0; }
@@ -493,13 +501,29 @@
     padding: 25px 0; }
   .new-box-container .new-box h2 {
     font-size: 18px; } }
-.fig-number.invisible {
-  opacity: 0 !important;
-  visibility: hidden !important; }
-
 @media (min-width: 2400px) {
   .box-bg-container {
     background-image: url("/img/backgrounds/home-bg-large.png");
     background-size: 3100px 1200px; } }
+@media (max-width: 1200px) {
+  .home-hero .box p {
+    margin-top: -40px !important; }
+  .home-hero .box .button {
+    margin-top: 20px; } }
+@media (min-width: 768px) and (max-width: 940px) {
+  .home-hero .box h2 {
+    font-size: 45px !important; }
+  .home-hero .box p {
+    display: none !important; }
+  .home-hero .box .button {
+    margin-top: 20px; } }
+@media (max-width: 475px) {
+  .home-hero .box {
+    height: auto !important;
+    padding-bottom: 50px !important; }
+    .home-hero .box p {
+      margin-top: 10px !important; }
+    .home-hero .box .button {
+      margin-left: 10px; } }
 
 /*# sourceMappingURL=home.css.map */
