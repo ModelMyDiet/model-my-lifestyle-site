@@ -718,8 +718,8 @@ footer {
     margin-top: -70px !important; } }
 @media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) and (max-width: 450px) {
   footer .content-margins .row form input[type="submit"] {
-    height: 50px;
-    margin-top: -5px; } }
+    height: 48px;
+    margin-top: -6px; } }
 .slider-container {
   background-color: #009171;
   color: #4DBFA8;
