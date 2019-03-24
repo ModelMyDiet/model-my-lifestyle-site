@@ -32,6 +32,8 @@ footer {
           font-size: 16px;
           font-family: 'Montserrat 400';
           float: left;
+          -webkit-appearance: none;
+          -moz-appearance: none;
         }
         input[type="submit"] {
           // display: inline-flex;

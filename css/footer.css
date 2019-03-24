@@ -25,7 +25,9 @@ footer {
           margin-top: -5px;
           font-size: 16px;
           font-family: 'Montserrat 400';
-          float: left; }
+          float: left;
+          -webkit-appearance: none;
+          -moz-appearance: none; }
         footer .content-margins .row form input[type="submit"] {
           height: 50px;
           width: 15%;

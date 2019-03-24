@@ -272,7 +272,13 @@
     .box-white-container .box .sub-box .button .caret {
       width: 20%;
       border: none;
-      margin-top: 2px; } }
+      margin-top: 2px; }
+
+  .success-stories-container h1 {
+    text-align: center; }
+  .success-stories-container .red-button {
+    float: none;
+    margin: 0 auto 40px auto; } }
 @media (max-width: 660px) {
   .box-white-container .box h1 {
     font-size: 40px; }
@@ -369,7 +375,9 @@
   .box-white-container .box .sub-box h5 {
     font-size: 20px; }
   .box-white-container .box .sub-box .button .button-text {
-    font-size: 14px; } }
+    font-size: 14px; }
+  .box-white-container .box .sub-box .button .caret {
+    margin-top: 4px; } }
 @media (max-width: 360px) {
   .box-white-container .box-category .button {
     margin-left: 15px;
