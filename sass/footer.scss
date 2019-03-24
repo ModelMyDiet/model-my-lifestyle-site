@@ -236,3 +236,18 @@ footer {
     }
   }
 }
+
+
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) and (max-width: 450px) {
+  footer {
+    .content-margins {
+      .row {
+        form {
+          input[type="submit"] {
+            height: 55px !important;
+          }
+        }
+      }
+    }
+  }
+}
