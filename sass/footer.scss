@@ -24,7 +24,7 @@ footer {
           color: $dark-forest;
           background-color: $white;
           border: 1px solid $white;
-          height: 45px;
+          height: 45px !important;
           width: 72%;
           // padding-left: 25px;
           display: block;
@@ -38,7 +38,7 @@ footer {
         }
         input[type="submit"] {
           // display: inline-flex;
-          height: 50px;
+          height: 50px !important;
           width: 15%;
           font-family: 'Montserrat 800';
           color: $forest;

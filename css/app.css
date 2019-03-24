@@ -560,7 +560,7 @@ footer {
           color: #007257;
           background-color: #fff;
           border: 1px solid #fff;
-          height: 45px;
+          height: 45px !important;
           width: 72%;
           display: block;
           margin-top: -5px;
@@ -571,7 +571,7 @@ footer {
           -moz-appearance: none;
           border-radius: 0; }
         footer .content-margins .row form input[type="submit"] {
-          height: 50px;
+          height: 50px !important;
           width: 15%;
           font-family: 'Montserrat 800';
           color: #009171;
