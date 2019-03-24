@@ -40,8 +40,8 @@ footer {
           font-size: 1.8em;
           background-color: #007257;
           border: 1px solid #007257;
-          padding: 0 !important;
-          margin: 0 !important;
+          padding: 0;
+          margin: 0;
           margin-left: -4px;
           margin-top: -5px;
           float: left;
@@ -175,5 +175,9 @@ footer {
     margin: 0 5px; }
   footer .sub-footer p {
     margin-top: -70px !important; } }
+@media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) and (max-width: 450px) {
+  footer .content-margins .row form input[type="submit"] {
+    height: 50px;
+    margin-top: -5px; } }
 
 /*# sourceMappingURL=footer.css.map */
