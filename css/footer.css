@@ -20,7 +20,7 @@ footer {
           background-color: #fff;
           border: 1px solid #fff;
           height: 45px;
-          width: 82%;
+          width: 72%;
           display: block;
           margin-top: -5px;
           font-size: 16px;
@@ -40,7 +40,7 @@ footer {
           border: 1px solid #007257;
           margin-left: -4px;
           margin-top: -5px;
-          float: right;
+          float: left;
           -webkit-appearance: none;
           -moz-appearance: none;
           border-radius: 0; }
