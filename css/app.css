@@ -24,6 +24,8 @@
   overflow-y: auto;
   max-height: calc(100% - 50px);
   display: none; }
+  .accordion-menu .green-button, .accordion-menu .green-button:visited, .accordion-menu .inspiration .button {
+    background: #fff; }
 
 .patty {
   width: 45px;

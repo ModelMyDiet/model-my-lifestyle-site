@@ -23,6 +23,9 @@
   max-height: calc(100% - 50px);
   // overflow: hidden;
   display: none;
+  .green-button, .green-button:visited, .inspiration .button {
+    background: #fff;
+  }
 }
 
 // .mobile-menu {
